@@ -9,7 +9,7 @@ st.set_page_config(
 
 # ---------------- Title ----------------
 st.title("🧠 AI Resume Intelligence & Career Guidance Platform")
-st.caption("Day 6: Resume Improvement, Learning Path & Interview Prep")
+st.caption(" Skill Gap Detection & Career Guidance")
 
 st.markdown("---")
 
@@ -164,3 +164,4 @@ if st.button("🔍 Analyze Resume"):
         st.subheader("🎯 Interview Preparation Topics")
         for topic in INTERVIEW_TOPICS[job_role]:
             st.write(f"- {topic}")
+
